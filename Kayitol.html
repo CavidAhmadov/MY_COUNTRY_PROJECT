@@ -54,31 +54,20 @@
         </div>
         
         <h2>Hesabiniz login yapin</h2>
-         <form class="login" method="post" >
+         <form class="login" method="post" action="login.php">
                 <label  for="">Email giriniz:</label>
                 <br>
-             <input style="padding-right: 50%;" type="email" placeholder="Email address" id="email">
+             <input style="padding-right: 50%;" type="email" placeholder="Email address" name="email">
              <br>
              <label for="">Sifre giriniz: </label> 
              <br>
-             <input style="padding-right: 50%;" type="password" placeholder="********" id="password">
+             <input style="padding-right: 50%;" type="password" placeholder="********" name="password">
              <br>
              <br>
              <input type="submit" value="Gonder" onclick="kontrol()">
              <input style="margin-left: 30%;padding-left: 10%;padding-right:10%;" type="reset" value="Sil">
-             
          </form>
-        <script>
-            function kontrol(){
-              if(document.getElementById('email')!="b231210560@gmail.com"||document.getElementById('password')!="b231210560"){
-               alert("Hatali sifre veya email!!!")
-
-            }
-            else{
-                alert("dogru")
-            }
-        }
-        </script>
+  
     </body>
    
 </html>
