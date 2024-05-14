@@ -5,7 +5,7 @@ $_POST["email"]=="cahmedzade37@gmail.com"
 ){
     
     echo '<script>alert("HOS GELDINIZ B231210560 kullanicisi")</script>';
-    echo '<script>window.location.href = "Sehirtanitim.html";</script>';
+    echo '<script>window.location.href = "hakkimda.html";</script>';
 }
 else{
  echo "yanlish sifre veya email lutfen tekrar deneyiniz...";
