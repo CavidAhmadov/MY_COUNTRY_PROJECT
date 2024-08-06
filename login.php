@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST["password"],$_POST["email"])&&
-$_POST["password"]=="b231210560"&&
-$_POST["email"]=="cahmedzade37@gmail.com"
+$_POST["password"]=="********"&&
+$_POST["email"]=="**********"
 ){
     
     echo '<script>alert("HOS GELDINIZ B231210560 kullanicisi")</script>';
